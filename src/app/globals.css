@@ -141,13 +141,13 @@ body {
 }
   
   .main button{
-  border:2px solid #fff;
-    color: #fff;
+    border:2px solid #c62525;
+    color: blueviolet;
     font-size: 16px;
     padding: 8px 15px;
     width: 120px;
     margin-top: 10px;
-    background-color: rgb(255, 221, 0);
+    background-color: rgb(0, 255, 106);
     border-radius: 4px;
   
   }
@@ -241,4 +241,24 @@ flexbody {
   padding: 1rem;
 }
 
+/*============================= Menu Bar ===================================*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .wrapper {
+    @apply font-sans bg-purple-200 p-12 text-center;
+  }
+  .menu {
+    @apply bg-white p-2 rounded-full;
+  }
+  a {
+    @apply bg-blue-50 text-gray-800 py-2 px-6 rounded-full;
+  }
+  a.active {
+    @apply bg-blue-500 text-white;
+  }
+}
