@@ -674,6 +674,19 @@ body {
     padding: 0 0px;
     font-family: Arial;
   }
+
+  .flexmain{
+    
+    width: 500;
+    height: 10;
+    background-color: rgb(119, 185, 228);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    padding: 0 0px;
+    font-family: Arial;
+  }
   
   .main h1{
     font-size: 25px;
@@ -683,7 +696,14 @@ body {
     /* text-shadow: 2px 2px 5px red; */
     /* text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; */
   }
-
+  .flexmain h1{
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(238, 10, 10);
+    text-align:left;
+    /* text-shadow: 2px 2px 5px red; */
+    /* text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; */
+  }
 
   .main h2{
     font-size: 20px;
@@ -694,6 +714,16 @@ body {
     /* text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; */
 }
 
+.flexmain h2{
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(54, 182, 196);
+  text-align:left;
+  /* text-shadow: 2px 2px 5px red; */
+  /* text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; */
+}
+
+
   .main h3{
     font-size: 15px;
     font-weight: 500;
@@ -702,8 +732,24 @@ body {
     /* text-shadow: 2px 2px 5px red; */
     /* text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; */
 }
-  
+.flexmain h3{
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  text-align:left;
+  /* text-shadow: 2px 2px 5px red; */
+  /* text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; */
+}
+
 .main h4{
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+  text-align:left;
+  /* text-shadow: 2px 2px 5px red; */
+  /* text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; */
+}
+
+.flexmain h4{
   font-weight: 300;
   color: rgb(0, 0, 0);
   text-align:left;
@@ -737,6 +783,16 @@ body {
       text-justify:values;
       padding: 50px 50px;
   }
+
+  .flexmain p{
+    font-size: 18px;
+    width: 80%;
+    margin-top:-5px;
+    color: purple;
+    text-align:justify;
+    text-justify:values;
+    padding: 50px 50px;
+}
   
   .main button{
   border:2px solid #fff;
@@ -745,7 +801,7 @@ body {
     padding: 8px 15px;
     width: 120px;
     margin-top: 10px;
-    background-color: transparent;
+    background-color: red;
     border-radius: 4px;
   
   }

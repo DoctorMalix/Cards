@@ -45,7 +45,7 @@ export default function Home() {
       </div>
     </div>
 
-    <div className="main">
+    <div className="flexmain">
         <h1> Using Flex Split</h1>
         {/* ======================================================== */}
         
