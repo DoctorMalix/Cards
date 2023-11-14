@@ -30,12 +30,40 @@ body {
 
   .main h3{
     font-size: 15px;
-    color: rgb(83, 104, 209);
+    
+    font-weight: 900;
+
+    color: rgb(0, 0, 0);
     text-align:center;
     /* text-shadow: 2px 2px 5px red; */
-    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    /* text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; */
 }
   
+.main h4{
+  font-size: 10px;
+  color: rgb(0, 0, 0);
+  text-align:center;
+  /* text-shadow: 2px 2px 5px red; */
+  /* text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; */
+}
+
+
+/* .main Image{
+      width: 400px;
+      height: 200px;
+      border:2px solid #fff;
+      background: url(img/tiger.png) no-repeat;
+      box-shadow: 10px 10px 5px #ccc;
+      -moz-box-shadow: 10px 10px 5px #ccc;
+      -webkit-box-shadow: 10px 10px 5px #ccc;
+      -khtml-box-shadow: 10px 10px 5px #ccc;
+  
+} */
+
+
+
+
+
   .main p{
       font-size: 18px;
       width: 80%;

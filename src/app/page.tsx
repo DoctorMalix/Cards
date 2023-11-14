@@ -11,44 +11,48 @@ export default function Home() {
 
 <div className="main">
 <svg viewBox="60 60 1000 170">
-    <path fill="#e7008a" fill-opacity="0.3" d="M0,224L80,192C160,160,320,96,480,85.3C640,75,800,117,960,112C1120,107,1280,53,1360,26.7L1440,0L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
-    <path fill="#e7008a" fill-opacity="0.1" d="M0,224L80,192C160,160,320,196,480,96C640,96,800,192,960,202.7C1120,213,1280,139,1360,101.3L1440,64L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
-    <path fill="#e7008a" fill-opacity="0.2" d="M0,32L60,74.7C120,117,240,203,360,224C480,245,600,203,720,170.7C840,139,960,117,1080,122.7C1200,128,1320,160,1380,176L1440,192L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path>
+<path fill="#a2d9ff" fill-opacity="0.5" d="M0,160L48,176C96,192,192,224,288,240C384,256,480,256,576,256C672,256,768,256,864,245.3C960,235,1056,213,1152,208C1248,203,1344,213,1392,218.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+<path fill="#0099cc" fill-opacity="0.5" d="M0,32L48,74.7C96,117,192,203,288,229.3C384,256,480,224,576,213.3C672,203,768,213,864,186.7C960,160,1056,96,1152,74.7C1248,53,1344,75,1392,85.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+<path fill="#0099ff" fill-opacity="0.2" d="M0,288L48,261.3C96,235,192,181,288,176C384,171,480,213,576,218.7C672,224,768,192,864,181.3C960,171,1056,181,1152,181.3C1248,181,1344,171,1392,165.3L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+<path fill="#0099ff" fill-opacity="0.2" d="M0,192L48,165.3C96,139,192,85,288,101.3C384,117,480,203,576,234.7C672,267,768,245,864,213.3C960,181,1056,139,1152,133.3C1248,128,1344,160,1392,176L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+<path fill="#0099ff" fill-opacity="0.2" d="M0,32L48,42.7C96,53,192,75,288,117.3C384,160,480,224,576,218.7C672,213,768,139,864,122.7C960,107,1056,149,1152,192C1248,235,1344,277,1392,298.7L1440,320L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+
 </svg>
 
 {/* ===================================================================================== */}
-<div className="py-10 flex gam-6 flex-wrap gap-6 justify-center"> 
+<div className="py-10 px-20 flex rounded-2xl shadow-2xl flex-wrap gap-6 bg-gray-100 justify-center"> 
+    <div className="py-10 px-20 flex rounded-2xl shadow-2xl gam-6 flex-wrap gap-6  bg-white justify-center"> 
 
-  <div className="order-last bg-pink-200   rounded-2xl shadow-2xl hover:bg-pink-400 transition-all duration-1000">
-      <Image src= "/perfume.webp"   alt="" width="200" height="200" className="profile-image center py-3 px-3 flex-auto rounded-2xl h-40 w-40"></Image>
-      <h3>ALLURI</h3>
-  </div>    
+        <div className="order-last bg-white">
+            <Image src= "/kaki.jpg" className="rounded-full center py-3 px-3 flex-auto  h-40 w-40 shadow-2xl"  alt="" width="200" height="200" ></Image>
+            <h3>Dukhtar Rauf</h3>
+            <h4>Chief Executive Officer</h4>
+        </div>    
 
-  <div className="order-last bg-pink-200   rounded-2xl shadow-2xl hover:bg-pink-400 transition-all duration-1000">
-      <Image src= "/perfumeJ.webp"  alt="" width="200" height="200"  className="profile-image center py-3 px-3 flex-auto rounded-2xl h-40 w-40"></Image>
-      <h3>POEM</h3>
-  </div>
+        <div className="order-last bg-white">
+            <Image src= "/kaka2.jpg" className="rounded-full center py-3 px-3 flex-auto  h-40 w-40 shadow-2xl"  alt="" width="200" height="200" ></Image>
+            <h3>Farzand Rauf</h3>
+            <h4>Front-End Developer</h4>
+        </div>    
 
-  <div className="order-last bg-pink-200   rounded-2xl shadow-2xl hover:bg-pink-400 transition-all duration-1000">
-      <Image src= "/perfume2.jpeg" alt=""  width="200" height="200" className="profile-image center py-3 px-3 flex-auto rounded-2xl h-40 w-40"></Image>
-      <h3>CHANNEL</h3>
-  </div>
 
-  <div className="order-last bg-pink-200   rounded-2xl shadow-2xl hover:bg-pink-400 transition-all duration-1000">
-      <Image src="/perfume3.jpeg"  alt=""   width="200" height="200" className="profile-image center py-3 px-3 flex-auto rounded-2xl h-40 w-40"></Image>
-      <h3>ARTY</h3>
-  </div>
+        <div className="order-last bg-white">
+            <Image src= "/kaki.jpg" className="rounded-full center py-3 px-3 flex-auto  h-40 w-40 shadow-2xl"  alt="" width="200" height="200" ></Image>
+            <h3>Dukhtar Rauf</h3>
+            <h4>Chief Executive Officer</h4>
+        </div>    
 
-  <div className="order-last bg-pink-200   rounded-2xl shadow-2xl hover:bg-pink-400 transition-all duration-1000">
-      <Image src= "/perfume4.jpeg"  alt=""  width="200" height="200" className="profile-image center py-3 px-3 flex-auto rounded-2xl h-40 w-40"></Image>
-      <h3>VALENTINES DAY</h3>
-  </div>
+        <div className="order-last bg-white">
+            <Image src= "/kaka2.jpg" className="rounded-full center py-3 px-3 flex-auto  h-40 w-40 shadow-2xl"  alt="" width="200" height="200" ></Image>
+            <h3>Farzand Rauf</h3>
+            <h4>Front-End Developer</h4>
+        </div>    
 
-  <div className="order-last bg-pink-200   rounded-2xl shadow-2xl hover:bg-pink-400 transition-all duration-1000">
-      <Image src= "/perfume4.webp"  alt="" width="200" height="200" className="w-auto profile-image center py-3 px-3 flex-auto rounded-2xl h-40"></Image>
-      <h3>BLOOM</h3>
-  </div>
 
+
+
+    </div>
+  
 
 </div>
  
