@@ -45,12 +45,12 @@ export default function Home() {
       </div>
     </div>
 
-    <div className="flexmain">
+    <div className="flexmain  ">
         <h1> Using Flex Split</h1>
         {/* ======================================================== */}
         
 <section className="container flex-col">
-<div className="top">
+<div className="top rounded-t-3xl shadow-2xl">
     
                 
                     <h1>Join Our Community</h1>
@@ -60,7 +60,7 @@ export default function Home() {
                 
 </div>
     <section className="container flex-row">
-            <div className="left-half">
+            <div className="left-half  rounded-bl-3xl shadow-2xl">
                 <article>
                     <h1>Monthly Subscription</h1>
                     <h1>$29</h1> 
@@ -69,7 +69,8 @@ export default function Home() {
                     <button> Signup </button>
                 </article>
             </div>
-  <div className="right-half">
+            
+  <div className="right-half rounded-br-3xl shadow-2xl">
         <article>
             <h1> Why Us</h1>
             <h3>Tutorials by industry experts</h3>
@@ -82,12 +83,19 @@ export default function Home() {
         </article>
   </div>
 </section>
+
 </section>
+
+
         {/* ========================================================== */}
-    </div>
+    
+
+    <h1> Using GRID Split</h1>
+        {/* ======================================================== */}
 
 
 
+ </div>
 
 
 
