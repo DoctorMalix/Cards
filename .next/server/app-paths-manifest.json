@@ -1,5 +1,5 @@
 {
-  "/page": "app/page.js",
-  "/flex/page": "app/flex/page.js",
-  "/grid/page": "app/grid/page.js"
+  "/grid/page": "app/grid/page.js",
+  "/signup/page": "app/signup/page.js",
+  "/flex/page": "app/flex/page.js"
 }

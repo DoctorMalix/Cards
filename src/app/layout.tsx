@@ -24,6 +24,7 @@ export default function RootLayout({
     <a href="/" className="active">Home</a>
     <a href="/flex">Flex</a>
     <a href="/grid">Grid</a>
+    <a href="/signup">Signup</a>
     
   </div>
 </div>

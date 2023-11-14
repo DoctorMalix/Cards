@@ -262,3 +262,61 @@ flexbody {
     @apply bg-blue-500 text-white;
   }
 }
+
+/* ================ GRID ========================================= */
+
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-200 text-gray-700 p-8;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-2xl mx-auto;
+  }
+  .container > div {
+    @apply p-10;
+  }
+  ul {
+    @apply mt-3 text-sm;
+  }
+  .component-header {
+    @apply bg-white text-gray-500;
+  }
+  .subscription {
+    @apply bg-teal-500 text-white;
+  }
+  .why {
+    @apply bg-teal-400 text-white;
+  }
+  h2 {
+    @apply font-bold text-3xl text-teal-600;
+  }
+  h3 {
+    @apply font-bold text-xl;
+  }
+  .component-header h3 {
+    @apply text-[#c0df34] my-4;
+  }
+  .price {
+    @apply inline-block mt-2.5 align-middle font-bold text-4xl;
+  }
+  .per {
+    @apply inline-block mt-2.5 align-middle pl-3;
+  }
+  #sign-up {
+    @apply mt-6 block py-3 px-6 text-center bg-[#c0df34] rounded font-bold;
+  }
+  p {
+    @apply mt-1;
+  }
+}
+
+/* ================ GRID ========================================= */
