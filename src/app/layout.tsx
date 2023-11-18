@@ -8,9 +8,7 @@ export const metadata = {
 export default function RootLayout({
   children,
 
-
-
-  
+ 
 }: {
   children: React.ReactNode
   
@@ -21,6 +19,7 @@ export default function RootLayout({
       {/* ===============================NAV BAR ============================= */}
 <div className="wrapper">
   <div className="menu flex justify-left">
+    <h3>
     <a href="/" className="active">Home</a>
     <a href="/cards" className="active">Cards</a>
     <a href="/flex" className="active">Flex</a>
@@ -28,7 +27,7 @@ export default function RootLayout({
     <a href="/wavyback" className="active">Wavy Background</a>
     <a href="/imagestyle" className="active">Image Styles</a>
     <a href="/signup" className="active">Signup</a>
-    
+    </h3>
   </div>
 </div>
 {/* ===============================NAV BAR ============================= */}
