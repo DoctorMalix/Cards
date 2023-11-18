@@ -14,7 +14,7 @@ return (
 
 <div className="text-5xl font-extrabold ...">
   <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
-    Button's Background and Text Background Colors
+    Buttons Background and Text Background Colors
   </span>
 </div>
 

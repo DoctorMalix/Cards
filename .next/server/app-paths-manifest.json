@@ -1,4 +1,7 @@
 {
   "/wavyback/page": "app/wavyback/page.js",
-  "/cards/page": "app/cards/page.js"
+  "/cards/page": "app/cards/page.js",
+  "/menu/page": "app/menu/page.js",
+  "/flex/page": "app/flex/page.js",
+  "/grid/page": "app/grid/page.js"
 }

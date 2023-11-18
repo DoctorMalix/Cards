@@ -26,6 +26,7 @@ export default function RootLayout({
     <a href="/grid" className="active">Grid</a>
     <a href="/wavyback" className="active">Wavy Background</a>
     <a href="/imagestyle" className="active">Image Styles</a>
+    <a href="/menu" className="active">Menus</a>
     <a href="/signup" className="active">Signup</a>
     </h3>
   </div>
