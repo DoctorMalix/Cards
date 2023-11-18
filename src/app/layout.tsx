@@ -22,10 +22,12 @@ export default function RootLayout({
 <div className="wrapper">
   <div className="menu flex justify-left">
     <a href="/" className="active">Home</a>
-    <a href="/flex">Flex</a>
-    <a href="/grid">Grid</a>
-    <a href="/signup">Signup</a>
-    <a href="/wavyback">Wavy Background</a>
+    <a href="/cards" className="active">Cards</a>
+    <a href="/flex" className="active">Flex</a>
+    <a href="/grid" className="active">Grid</a>
+    <a href="/wavyback" className="active">Wavy Background</a>
+    <a href="/imagestyle" className="active">Image Styles</a>
+    <a href="/signup" className="active">Signup</a>
     
   </div>
 </div>
