@@ -3,6 +3,5 @@
   "/menu/page": "app/menu/page.js",
   "/flex/page": "app/flex/page.js",
   "/grid/page": "app/grid/page.js",
-  "/imagestyle/page": "app/imagestyle/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/imagestyle/page": "app/imagestyle/page.js"
 }
