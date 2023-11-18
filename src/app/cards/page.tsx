@@ -15,8 +15,12 @@ return (
     <div className="grid gap-x-6 lg:grid-cols-3 lg:gap-x-12 bg-white">
       <div className="mb-6 block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 lg:mb-0" data-te-ripple-init data-te-ripple-color="light">
         <div className="relative overflow-hidden bg-white bg-cover bg-no-repeat">
-          <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/111.jpg" className="w-full rounded-t-lg" />
-          
+          <Image src="/126.jpg" 
+            className="w-full rounded-t-lg"
+              alt=""
+              width="100"
+              height="100"
+          ></Image>
           
           <svg viewBox="60 60 1000 170">
                 <path fill="#a2d9ff" fill-opacity="0.5" d="M0,160L48,176C96,192,192,224,288,240C384,256,480,256,576,256C672,256,768,256,864,245.3C960,235,1056,213,1152,208C1248,203,1344,213,1392,218.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
@@ -53,7 +57,13 @@ return (
 
       <div className="mb-6 block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 lg:mb-0">
         <div className="relative overflow-hidden bg-cover bg-no-repeat" data-te-ripple-init data-te-ripple-color="light">
-          <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/114.jpg" className="w-full rounded-t-lg" />
+        <Image src="/126.jpg" 
+            className="w-full rounded-t-lg"
+              alt=""
+              width="100"
+              height="100"
+          ></Image>
+
           <a href="#!">
             <div
               className="absolute top-0 right-0 bottom-0 left-0 h-full w-full bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,0.2)]"></div>
@@ -79,7 +89,12 @@ return (
 
       <div className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
         <div className="relative overflow-hidden bg-cover bg-no-repeat" data-te-ripple-init data-te-ripple-color="light">
-          <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/117.jpg" className="w-full rounded-t-lg" />
+          <Image src="/126.jpg" 
+            className="w-full rounded-t-lg"
+              alt=""
+              width="100"
+              height="100"
+          ></Image>
           <a href="#!">
             <div
               className="absolute top-0 right-0 bottom-0 left-0 h-full w-full bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,0.2)]"></div>
@@ -112,8 +127,12 @@ return (
     <div className="flex flex-wrap bg-blue-300 rounded-3xl">
       <div className="mb-12 w-full shrink-0 grow-0 basis-auto lg:mb-0 lg:w-5/12 bg-green-300">
         <div className="flex lg:py-12 bg-purple-300">
-          <img src="https://mdbcdn.b-cdn.net/img/new/standard/people/033.jpg"
-            className="w-full rounded-lg shadow-lg dark:shadow-black/20 lg:ml-[50px] z-[10]" alt="image bg-red" />
+        <Image src="/126.jpg" 
+            className="w-full rounded-t-lg"
+              alt=""
+              width="100"
+              height="100"
+          ></Image>
         </div>
       </div>
       <div className="w-full shrink-0 grow-0 basis-auto lg:w-7/12 bg-teal-400">
@@ -153,8 +172,12 @@ return (
     <div className="block rounded-lg bg-gray-200 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
       <div className="flex flex-wrap items-center">
         <div className="block w-full shrink-0 grow-0 basis-auto lg:flex lg:w-6/12 xl:w-4/12">
-          <img src="https://mdbcdn.b-cdn.net/img/new/ecommerce/vertical/126.jpg" alt="Trendy Pants and Shoes"
-            className="w-full rounded-lg lg:rounded-tr-none" />
+        <Image src="/126.jpg" 
+            className="w-full rounded-t-full"
+              alt=""
+              width="100"
+              height="100"
+          ></Image>
         </div>
         <div className="w-full shrink-0 grow-0 basis-auto lg:w-6/12 xl:w-8/12">
           <div className="px-6 py-12 md:px-12">
@@ -238,12 +261,27 @@ return (
     <div className="block rounded-lg bg-gray-200 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
       <div className="flex flex-wrap items-center">
         <div className="block w-full shrink-0 grow-0 basis-auto lg:flex lg:w-6/12 xl:w-4/12">
-          <img src="https://mdbcdn.b-cdn.net/img/new/ecommerce/vertical/126.jpg" alt="Trendy Pants and Shoes"
-            className="w-full rounded-full lg:rounded-tr-none lg:rounded-bl-lg" />
-            <img src="https://mdbcdn.b-cdn.net/img/new/ecommerce/vertical/126.jpg" alt="Trendy Pants and Shoes"
-            className="w-full rounded-full lg:rounded-tl-none lg:rounded-br-lg" />
-            <img src="https://mdbcdn.b-cdn.net/img/new/ecommerce/vertical/126.jpg" alt="Trendy Pants and Shoes"
-            className="w-full rounded-full" />
+        <Image src="/126.jpg" 
+            className="w-full rounded-t-full rounded-bl-2xl"
+              alt=""
+              width="100"
+              height="100"
+          ></Image>
+
+          <Image src="/126.jpg" 
+            className="w-full rounded-full rounded-tr-2xl"
+              alt=""
+              width="100"
+              height="100"
+          ></Image>
+
+          
+<Image src="/126.jpg" 
+            className="w-full rounded-full rounded-bl-2xl"
+              alt=""
+              width="100"
+              height="100"
+          ></Image>
         </div>
         <div className="w-full shrink-0 grow-0 basis-auto lg:w-6/12 xl:w-8/12">
           <div className="px-6 py-12 md:px-12">
