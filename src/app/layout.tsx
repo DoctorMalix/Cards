@@ -1,3 +1,4 @@
+import React from "react";
 import "./globals.css";
 
 export const metadata = {
@@ -38,6 +39,9 @@ export default function RootLayout({
               <a href="/menu" className="active">
                 Menus
               </a>
+              <a href="/assign" className="active">
+                Assignment
+              </a>              
               <a href="/signup" className="active">
                 Signup
               </a>
@@ -52,11 +56,23 @@ export default function RootLayout({
             </div>
             <h3>
               <a href="https://drmalix.vercel.app" className="active">
-                DrMalix
+                DrMalix.vercel.app
               </a>
               <a href="https://womenpink.vercel.app" className="active">
                 Women Fragernce
               </a>
+              <a href="https://drmalix.com" className="active">
+                DrMalix.com
+              </a>
+              <a href="https://tuckshop.com.pk" className="active">
+                tuckshop.com.pk
+              </a>
+              <a href="https://1callper.com" className="active">
+                1Callper.com
+              </a>
+
+
+
             </h3>
           </div>
         </div>

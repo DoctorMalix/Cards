@@ -1,7 +1,8 @@
 {
+  "/assign/page": "app/assign/page.js",
+  "/page": "app/page.js",
   "/cards/page": "app/cards/page.js",
-  "/menu/page": "app/menu/page.js",
-  "/flex/page": "app/flex/page.js",
   "/grid/page": "app/grid/page.js",
-  "/imagestyle/page": "app/imagestyle/page.js"
+  "/wavyback/page": "app/wavyback/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }
