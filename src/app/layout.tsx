@@ -17,7 +17,7 @@ export default function RootLayout({
         {/* ===============================NAV BAR ============================= */}
         <div className="wrapper">
           <div className="menu flex justify-left">
-            <h3>
+            <h4>
               <a href="/" className="active">
                 Home
               </a>
@@ -41,39 +41,36 @@ export default function RootLayout({
               </a>
               <a href="/assign" className="active">
                 Assignment
-              </a>              
+              </a>
               <a href="/signup" className="active">
                 Signup
               </a>
-            </h3>
+            </h4>
           </div>
         </div>
         {/* ===============================NAV BAR ============================= */}
         <div className="wrapper">
           <div className="menu flex justify-left">
             <div className="flexmain">
-              <h1> Other Projects</h1>
+              <h2> Other Projects</h2>
             </div>
-            <h3>
-              <a href="https://drmalix.vercel.app" className="active">
+            <h4>
+              <a href="https://drmalix.vercel.app" className="active" target="_blank">
                 DrMalix.vercel.app
               </a>
-              <a href="https://womenpink.vercel.app" className="active">
+              <a href="https://womenpink.vercel.app" className="active" target="_blank">
                 Women Fragernce
               </a>
-              <a href="https://drmalix.com" className="active">
+              <a href="https://drmalix.com" className="active" target="_blank">
                 DrMalix.com
               </a>
-              <a href="https://tuckshop.com.pk" className="active">
+              <a href="https://tuckshop.com.pk" className="active" target="_blank">
                 tuckshop.com.pk
               </a>
-              <a href="https://1callper.com" className="active">
+              <a href="https://1callper.com" className="active" target="_blank">
                 1Callper.com
               </a>
-
-
-
-            </h3>
+            </h4>
           </div>
         </div>
 

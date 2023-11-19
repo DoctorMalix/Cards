@@ -3,6 +3,5 @@
   "/page": "app/page.js",
   "/cards/page": "app/cards/page.js",
   "/grid/page": "app/grid/page.js",
-  "/wavyback/page": "app/wavyback/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/wavyback/page": "app/wavyback/page.js"
 }
