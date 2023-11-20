@@ -30,6 +30,21 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/wavyback/page.js"
+    ],
+    "/flex/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/flex/page.js"
+    ],
+    "/imagestyle/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/imagestyle/page.js"
+    ],
+    "/menu/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/menu/page.js"
     ]
   }
 }

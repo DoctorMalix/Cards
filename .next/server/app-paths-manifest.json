@@ -1,7 +1,7 @@
 {
-  "/assign/page": "app/assign/page.js",
-  "/page": "app/page.js",
   "/cards/page": "app/cards/page.js",
   "/grid/page": "app/grid/page.js",
-  "/wavyback/page": "app/wavyback/page.js"
+  "/wavyback/page": "app/wavyback/page.js",
+  "/imagestyle/page": "app/imagestyle/page.js",
+  "/assign/page": "app/assign/page.js"
 }

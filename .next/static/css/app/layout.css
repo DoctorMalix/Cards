@@ -950,6 +950,12 @@ p{
 .top-\[80px\]{
   top: 80px;
 }
+.left-\[22px\]{
+  left: 22px;
+}
+.left-\[120px\]{
+  left: 120px;
+}
 .z-10{
   z-index: 10;
 }
@@ -1058,6 +1064,18 @@ p{
 .h-screen{
   height: 100vh;
 }
+.h-\[20\%\]{
+  height: 20%;
+}
+.h-\[20\]{
+  height: 20;
+}
+.h-\[200\]{
+  height: 200;
+}
+.h-\[400\]{
+  height: 400;
+}
 .w-10{
   width: 2.5rem;
 }
@@ -1093,6 +1111,21 @@ p{
 }
 .w-screen{
   width: 100vw;
+}
+.w-\[10\%\]{
+  width: 10%;
+}
+.w-\[1\]{
+  width: 1;
+}
+.w-\[100\]{
+  width: 100;
+}
+.w-\[900\]{
+  width: 900;
+}
+.w-\[00\]{
+  width: 00;
 }
 .max-w-2xl{
   max-width: 42rem;
@@ -1186,6 +1219,11 @@ p{
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+.space-y-2 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
 .self-center{
   align-self: center;
@@ -1317,6 +1355,10 @@ p{
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+.bg-gray-400{
+  --tw-bg-opacity: 1;
+  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
 }
 .bg-\[url\(\/AM\.jpg\)\]{
   background-image: url(/AM.jpg);
@@ -1455,6 +1497,14 @@ p{
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+.px-5{
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+.py-5{
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
 .pb-0{
   padding-bottom: 0px;
 }
@@ -1481,6 +1531,9 @@ p{
 }
 .pt-4{
   padding-top: 1rem;
+}
+.pt-6{
+  padding-top: 1.5rem;
 }
 .text-center{
   text-align: center;
@@ -2323,6 +2376,9 @@ p {
   .xl\:w-8\/12{
     width: 66.666667%;
   }
+}
+.\[\&\>button\]\:w-\[260px\]>button{
+  width: 260px;
 }
 
 

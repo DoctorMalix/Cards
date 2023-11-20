@@ -1,18 +1,20 @@
 
 import Image from 'next/image'
+import React from 'react'
 export default function Home() {
 return (
 
   <div className="sm: my-custom-bg-class h-screen">
 
-
-
-
-
-
-
-
 <div className="sm: text-5xl font-extrabold ...">
+{/* ========================================================== */}
+<div className="sm: my-custom-bg-class h-screen">
+<section>
+      <div className="curve:before"></div>
+    </section>
+ </div>
+    {/*===================================================================  */}
+
   <span className="sm: bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
     Buttons Background and Text Background Colors
   </span>
